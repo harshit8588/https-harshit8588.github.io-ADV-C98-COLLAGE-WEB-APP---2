@@ -1,0 +1,47 @@
+.body-background
+{
+    background: linear-gradient(#e66465, #9198e5);
+}
+
+h1
+{
+    font-family: 'Blaka', cursive; 
+    font-weight:400;
+}
+
+#camera
+{
+    width: 612px;
+    height: 384px;
+    border-style: dashed;
+    border-color: rgb(21, 255, 0);
+}
+
+#img1
+{
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    box-shadow: 0 6px 8px rgba(0, 26, 255, 0.2) ;
+}
+
+#img2
+{
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    box-shadow: 0 6px 8px rgba(0, 26, 255, 0.2);
+}
+
+#img3
+{
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    box-shadow: 0 6px 8px rgba(0, 26, 255, 0.2);
+}
+
+img:hover
+{
+    border-radius: 140px;
+}

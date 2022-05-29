@@ -1,0 +1,56 @@
+
+<html>
+
+    <head>
+        <title>My Selfie App</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+        <link href="style.css" rel="stylesheet">
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js" type="text/javascript"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Blaka&display=swap" rel="stylesheet">
+    
+    </head>
+    
+    <body class="body-background">
+        <center>
+            <h1><i>Collage Web App</i> </h1>
+            <hr>
+            <h4 class="form-control"><marquee>Please press allow as soon as popup comes. After you give a voice command</marquee></h4>
+    
+            <h3>Say "selfie" for Taking your selfie to make a Collage</h3>
+    
+            <button class="btn btn-lg btn-primary" onclick="start()">Start</button>
+            <h4>Press the Start button</h4>
+    
+            <label>Your webcam : </label>
+            <div id="camera"></div>
+    
+            <br>
+    
+            <label>Your selife Will Display Here: </label>
+            <br><br>
+            <div id="resultRow" class="display-inline">
+                <span>
+                    <img id="img1" style="width:612px; height: 390px;"  src="stock-photo-142984111-1500x1000.jpg" >       
+                    <img id="img2" src="istockphoto-517188688-612x612.jpg" >
+                    <br><hr><br>
+                </span>    
+                    
+                    
+                            <div class="container" id="result3">
+                    <img id="img3" style="width:612px; height: 384px;" src="Karthika-Gupta-Compelling-Nature-Photos-6.webp" >
+                    <br><hr><br>
+                            </div>
+            </div>
+        </center>
+    <div style="position: fixed ; text-align: center; bottom: 0%; " class="form-control"> <b><i>Developed by Harshit</i></b> </div>
+        <script src="main.js"></script>
+    </body>
+    
+    </html>
